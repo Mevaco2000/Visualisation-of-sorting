@@ -1,0 +1,13 @@
+﻿<Window x:Class="Projekt.WindowQSInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Informacje o sortowaniu szybkim " Height="450" Width="800" Icon="/Info_Simple.svg.png">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="247" Margin="34,10,0,0" TextWrapping="Wrap" Text="Sortowanie szybkie (ang. quicksort) – jeden z popularnych algorytmów sortowania działających na zasadzie „dziel i zwyciężaj”.&#xD;&#xA;Sortowanie szybkie (ang. QuickSort) zostało wynalezione w 1962 przez C.A.R. Hoare’a.&#xD;&#xA;Algorytm sortowania szybkiego jest wydajny. Ze względu na szybkość i prostotę implementacji jest powszechnie używany. Jego implementacje znajdują się w bibliotekach standardowych wielu środowisk programowania. &#xD;&#xA;Z tablicy wybiera się element rozdzielający, po czym tablica jest dzielona na dwa fragmenty: do początkowego przenoszone są wszystkie elementy nie większe od rozdzielającego, do końcowego wszystkie większe. Potem sortuje się osobno początkową i końcową część tablicy. Rekursja kończy się, gdy kolejny fragment uzyskany z podziału zawiera pojedynczy element, jako że jednoelementowa tablica nie wymaga sortowania.&#xD;&#xA;" VerticalAlignment="Top" Width="693" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+        <Image Margin="292,150,331,0" Source="/Image3.png" Stretch="Fill"/>
+    </Grid>
+</Window>

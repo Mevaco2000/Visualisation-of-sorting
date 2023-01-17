@@ -1,0 +1,45 @@
+﻿<Window x:Class="Projekt.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Animacja" Height="1000" Width="1600" MinHeight="1000" MinWidth="1600" MaxHeight="1000" MaxWidth="1600" Topmost="True" Icon="/domyslna-grafika-zajawki-fio_0.png">
+    <Grid Margin="0,0,10,37" OpacityMask="Black" >
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF2E35A5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Canvas Name="canv" HorizontalAlignment="Center" Height="500" Margin="0,148,0,0" VerticalAlignment="Top" Width="1478" Background="#FF1D1673"/>
+        <Button x:Name="Button" Content="Wygeneruj graf" HorizontalAlignment="Left" Height="39" Margin="29,809,0,0" VerticalAlignment="Top" Width="302" Click="Button_Click" FontSize="16" Background="#FF1F64ED" FontWeight="Bold" Foreground="White"/>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Margin="378,809,0,0" VerticalAlignment="Top" Width="386" Height="39" SelectionChanged="ComboBox_SelectionChanged" FontWeight="Bold" FontSize="14" Foreground="#FF0B086F" IsReadOnly="True" BorderBrush="#FF455A8C"  >
+            <ComboBox.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFC18B8B" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.OpacityMask>
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#FF1F64ED" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Sortowanie przez wybieranie"/>
+            <ComboBoxItem Content="Sortowanie przez wstawianie "/>
+            <ComboBoxItem Content="Sortowanie bąbelkowe"/>
+            <ComboBoxItem Content="Sortowanie szybkie"/>
+        </ComboBox>
+
+        <Button x:Name="Button_Clear" Content="Wyczyść graf" HorizontalAlignment="Left" Height="39" Margin="823,809,0,0" VerticalAlignment="Top" Width="302" FontSize="16" Background="#FF1F64ED" Click="Button_Clear_Click" FontWeight="Bold" Foreground="White" ToolTip="Usuwa elementy z kanwy, po czym mozna zastosowac inne sortowania"/>
+        <Slider x:Name="Slider" HorizontalAlignment="Left" Margin="1213,819,0,0" VerticalAlignment="Top" Width="321" RenderTransformOrigin="0.459,2.661" Height="19" Minimum="1" ValueChanged="Slider_ValueChanged" Maximum="1000" AutoToolTipPlacement="TopLeft" ToolTip="Dla sortowania bąbelkowego nie zaleca się dużych wartości, z kolei dla szybkiego małych"/>
+        <Label Content="Przed rozpoczeciem animacji, wybierz jej szybkosc:" HorizontalAlignment="Left" Margin="1199,790,0,0" VerticalAlignment="Top" Width="349" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <Slider x:Name="Slider_elementy" HorizontalAlignment="Left" Margin="24,781,0,0" VerticalAlignment="Top" Width="321" RenderTransformOrigin="0.459,2.661" Height="19" Minimum="1" ValueChanged="Slider_elementy_ValueChanged" Maximum="1000" AutoToolTipPlacement="TopLeft"/>
+        <Label Content="Liczba elementow animacji:" HorizontalAlignment="Left" Margin="56,752,0,0" VerticalAlignment="Top" Width="349" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Animacja ukazująca mechanizm każdego z sortowań" HorizontalAlignment="Center" Height="89" Margin="0,54,0,0" VerticalAlignment="Top" Width="1360" FontFamily="Cascadia Code SemiBold" FontSize="48" FontWeight="Bold" Foreground="White"/>
+
+    </Grid>
+</Window>

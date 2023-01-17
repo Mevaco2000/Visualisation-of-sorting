@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt", "Projekt\Projekt.csproj", "{2B495DE8-F3AA-4A0D-8114-A9A0B8C1426E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{00C97198-00D4-44D9-A5D5-76D0C7181AB4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\splashy.png = ..\..\..\Documents\splashy.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B495DE8-F3AA-4A0D-8114-A9A0B8C1426E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B495DE8-F3AA-4A0D-8114-A9A0B8C1426E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B495DE8-F3AA-4A0D-8114-A9A0B8C1426E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B495DE8-F3AA-4A0D-8114-A9A0B8C1426E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1DAFE8-B200-4011-9E6F-2B25D1D16E10}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Projekt.WindowBSInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Informacje o sortowaniu bąbelkowym" Height="800" Width="600">
+    <Grid>
+        <TextBlock  HorizontalAlignment="Center" Margin="0,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="141" Width="580" FontFamily="Bahnschrift" FontSize="14"><Run Text="Jego sposób dzia"/><Run Language="pl-pl" Text="ł"/><Run Text="ania jest bardzo prosty, poniewa"/><Run Language="pl-pl" Text="ż"/><Run Text=" algorytm zwyczajnie"/><LineBreak/><Run Text="przechodzi przez tablic"/><Run Language="pl-pl" Text="ę "/><Run Text="i porównuje s"/><Run Language="pl-pl" Text="ą"/><Run Text="siednie elementy. Je"/><Run Language="pl-pl" Text="ś"/><Run Text="li s"/><Run Language="pl-pl" Text="ą"/><Run Text=" umieszczone w niew"/><Run Language="pl-pl" Text="ł"/><Run Text="a"/><Run Language="pl-pl" Text="ś"/><Run Text="ciwej"/><LineBreak/><Run Text="kolejno"/><Run Language="pl-pl" Text="ś"/><Run Text="ci, to s"/><Run Language="pl-pl" Text="ą"/><Run Text=" zamieniane miejscami. Brzmi to bardzo prosto, ale algorytm nie jest zbyt"/><LineBreak/><Run Text="efektywny, a jego u"/><Run Language="pl-pl" Text="ż"/><Run Text="ycie z du"/><Run Language="pl-pl" Text="ż"/><Run Text="ymi kolekcjami mo"/><Run Language="pl-pl" Text="gą"/><Run Text=" spowodowa"/><Run Language="pl-pl" Text="ć"/><Run Text=" problemy z wydajno"/><Run Language="pl-pl" Text="ś"/><Run Text="ci"/><Run Language="pl-pl" Text="ą"/><Run Text="."/><LineBreak/><Run Text="Aby lepiej zrozumie"/><Run Language="pl-pl" Text="ć"/><Run Text=", jak dzia"/><Run Language="pl-pl" Text="ł"/><Run Text="a opisany algorytm, przyjrzyj si"/><Run Language="pl-pl" Text="ę"/><Run Text=" poni"/><Run Language="pl-pl" Text="ż"/><Run Text="szemu rysunkowi"/><LineBreak/><Run Text="przedstawiaj"/><Run Language="pl-pl" Text="ą"/><Run Text="cemu operacj"/><Run Language="pl-pl" Text="e"/><Run Text=" sortowania jednowymiarowej tablicy o dziewi"/><Run Language="pl-pl" Text="ę"/><Run Text="ciu elementach"/><LineBreak/><Run Text="(–11, 12, –42, 0, 1, 90, 68, 6, –9):"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="103" Margin="61,217,0,0" VerticalAlignment="Top" Width="213"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="17,248,0,0" VerticalAlignment="Top" Width="431"/>
+        <Image Margin="34,168,34,203" Source="/Image2.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="Projekt.WindowSSInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Informacje o sortowaniu przez wybieranie" Height="768" Width="1024" Icon="/Info_Simple.svg.png">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Sortowanie przez wybieranie - jedna z prostszych metod sortowania o złożoności O(n2). Polega na wyszukaniu elementu mającego się znaleźć na żądanej pozycji i zamianie miejscami z tym, który jest tam obecnie. Operacja jest wykonywana dla wszystkich indeksów sortowanej tablicy."/><LineBreak/><Run Text="Algorytm przedstawia się następująco:"/><LineBreak/><Run Text="wyszukaj minimalną wartość z tablicy spośród elementów od i do końca tablicy"/><LineBreak/><Run Text="zamień wartość minimalną, z elementem na pozycji i"/><LineBreak/><Run Text="Gdy zamiast wartości minimalnej wybierana będzie maksymalna, wówczas tablica będzie posortowana od największego do najmniejszego elementu."/></TextBlock>
+        <Image Margin="254,168,254,348" Source="/Image4.png" Stretch="Fill"/>
+    </Grid>
+</Window>
